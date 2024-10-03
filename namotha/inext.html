@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+
+    <div class=" main_input">
+        <input class="input" type="number">
+        <button class=" button">Go</button>
+    </div>
+    <div class="namotha">
+       <h3>your result</h3> 
+        <h1 class=" result"></h1>
+</div>
+  
+
+   
+
+<script>
+     let input = document.querySelector ('.input')
+     let button = document.querySelector ('.button')
+     let result = document.querySelector ('.result')
+     
+    button.addEventListener ('click',()=>{
+        if(input.value == ''){
+            alert('pleace enter your number value')
+        }else{
+            for(let i = 1 ; i <11 ; i++){
+            result.innerHTML += input.value + ' x ' + i + ' = ' + input.value*i + '<br>'
+
+        }
+        }
+    } )
+
+</script>
+
+    
+</body>
+</html>

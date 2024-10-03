@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    gap: 20px;
+    background: rgb(208, 235, 243);
+}
+
+.main_input{
+    background: rgb(255, 255, 255);
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 10px;
+}
+.main_input .button{
+    background: rgb(23, 243, 60);
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+input{
+    outline: none;
+    height: 22px;
+}
+.namotha{
+ background: white;
+ width: 300px;
+ border-radius: 10px;
+}
+.namotha h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.namotha h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
